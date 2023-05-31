@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { IoAccessibilityOutline } from "https://deno.land/x/react_icons_io5@1.0.1/mod.ts"`
+```ts
+import { IoAccessibilityOutline } from "https://deno.land/x/react_icons_io5@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { IoAccessibilityOutline } from "react-icons/io5"`
+```ts
+import { IoAccessibilityOutline } from "react-icons/io5"
+```
 
 ## minimal import
 
-`import { IoAccessibilityOutline } from "react-icons/io5/IoAccessibilityOutline.ts"`
+```ts
+import { IoAccessibilityOutline } from "react-icons/io5/IoAccessibilityOutline.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import IoAccessibilityOutline from "react-icons/io5/IoAccessibilityOutline.ts"`
+```ts
+import IoAccessibilityOutline from "react-icons/io5/IoAccessibilityOutline.ts"
+```
 
