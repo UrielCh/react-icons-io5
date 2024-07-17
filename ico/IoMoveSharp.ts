@@ -1,6 +1,6 @@
 import { GenIcon, type IconBaseProps } from "../deps.ts";
 
 export function IoMoveSharp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 512 512"},child:[{tag:"path",attr:{fill:"none","strokeMiterlimit":"10",strokeWidth:"32",d:"M176 112l80-80 80 80m-80.02-80l.02 448m-80-80l80 80 80-80m64-224l80 80-80 80M112 176l-80 80 80 80m-80-80h448"}}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 512 512"},child:[{tag:"path",attr:{fill:"none","strokeMiterlimit":"10",strokeWidth:"32",d:"m176 112 80-80 80 80m-80.02-80 .02 448m-80-80 80 80 80-80m64-224 80 80-80 80M112 176l-80 80 80 80m-80-80h448"}}]})(props);
 }
 export default IoMoveSharp;
