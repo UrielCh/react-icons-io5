@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import IoAccessibilityOutline from "react-icons/io5/IoAccessibilityOutline.ts"
+ * import IoAccessibilityOutline from "react-icons/io5/IoAccessibilityOutline"
  * ```
  * @module
  * 
