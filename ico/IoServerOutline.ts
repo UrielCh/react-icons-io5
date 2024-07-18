@@ -1,6 +1,11 @@
-import { GenIcon, type IconBaseProps } from "../deps.ts";
+import { GenIcon } from "../deps.ts";
+import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
-export function IoServerOutline(props: IconBaseProps) {
+/**
+ * erverOutline icon from Ionicons 5
+ * @module
+ */
+export function IoServerOutline(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 512 512"},child:[{tag:"ellipse",attr:{"cx":"256","cy":"128",fill:"none",strokeLinecap:"round","strokeMiterlimit":"10",strokeWidth:"32","rx":"192","ry":"80"}},{tag:"path",attr:{fill:"none",strokeLinecap:"round","strokeMiterlimit":"10",strokeWidth:"32",d:"M448 214c0 44.18-86 80-192 80S64 258.18 64 214m384 86c0 44.18-86 80-192 80S64 344.18 64 300"},child:[]},{tag:"path",attr:{fill:"none",strokeLinecap:"round","strokeMiterlimit":"10",strokeWidth:"32",d:"M64 127.24v257.52C64 428.52 150 464 256 464s192-35.48 192-79.24V127.24"},child:[]}]})(props);
 }
 export default IoServerOutline;
